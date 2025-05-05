@@ -20,3 +20,11 @@ Have experience with backend frameworks like Django and databases like MySQL.
 Understand software development lifecycle practices, including security, CI/CD, and database design.
 Be comfortable using modern tools such as Docker, GitHub Actions, or similar CI/CD platforms.
 
+Team Roles
+The following roles are critical to the success of the Airbnb Clone Project, each contributing specialized skills to ensure a cohesive and functional application:
+
+Backend Developer: Designs and implements the server-side logic, APIs, and integrations using frameworks like Django and GraphQL. They ensure the application is scalable, secure, and performs efficiently while collaborating with frontend developers and database administrators.
+
+Database Administrator: Man
+
+
