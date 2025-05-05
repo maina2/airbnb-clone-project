@@ -25,6 +25,23 @@ The following roles are critical to the success of the Airbnb Clone Project, eac
 
 Backend Developer: Designs and implements the server-side logic, APIs, and integrations using frameworks like Django and GraphQL. They ensure the application is scalable, secure, and performs efficiently while collaborating with frontend developers and database administrators.
 
-Database Administrator: Man
+Database Administrator: Manages the MySQL database, designing schemas, optimizing queries, and ensuring data integrity and security. They work closely with backend developers to support efficient data storage and retrieval.
 
+Frontend Developer: Builds the user interface and client-side functionality, ensuring a responsive and intuitive experience. They integrate with backend APIs and focus on usability and performance.
+
+DevOps Engineer: Sets up and manages CI/CD pipelines using tools like GitHub Actions and Docker. They ensure smooth deployment, monitor application performance, and maintain infrastructure scalability and reliability.
+
+Security Specialist: Implements security measures for APIs, databases, and the overall application. They conduct vulnerability assessments, enforce secure coding practices, and ensure compliance with best practices.
+
+Project Manager: Oversees the project timeline, coordinates tasks among team members, and ensures effective communication. They manage the GitHub repository, track progress, and ensure the project aligns with its objectives.
+
+
+Technology Stack
+The Airbnb Clone Project leverages a modern technology stack to build a robust and scalable booking platform. Below are the key technologies and their purposes:
+
+Django: A Python-based web framework used for building RESTful APIs and handling server-side logic, enabling rapid development and secure backend functionality.
+MySQL: A relational database management system used for storing and managing application data, such as user profiles, bookings, and property listings, with optimized schemas for performance.
+GraphQL: An API query language used for flexible and efficient data retrieval, allowing the frontend to request only the necessary data from the backend.
+Docker: A containerization platform used to package the application and its dependencies, ensuring consistent development and deployment environments.
+GitHub Actions: A CI/CD tool used to automate testing, building, and deployment workflows, streamlining the development pipeline and ensuring code quality.
 
