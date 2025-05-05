@@ -118,3 +118,17 @@ Review System: Enables guests to submit ratings and comments for properties afte
 Payment Processing: Handles secure payment transactions for bookings, including processing and status tracking. It ensures financial interactions are safe and reliable, integrating with the booking system for seamless operation.
 
 
+API Security
+Securing the backend APIs is critical to protect sensitive data and ensure the integrity of the Airbnb Clone Project. The following key security measures will be implemented:
+
+Authentication: Utilizes JSON Web Tokens (JWT) to verify user identity for each API request. This is crucial for protecting user data by ensuring only authenticated users can access their profiles, bookings, or property listings.
+
+Authorization: Implements role-based access control (RBAC) to restrict API endpoints based on user roles (e.g., host, guest). This ensures hosts can only manage their own properties and guests can only view or book available listings, safeguarding user privacy and system integrity.
+
+Rate Limiting: Caps the number of API requests per user within a time frame to prevent abuse or denial-of-service attacks. This protects the platform’s performance and availability, ensuring a smooth experience for all users.
+
+Data Encryption: Employs HTTPS and encrypts sensitive data (e.g., payment details) both in transit and at rest. This is vital for securing payments and user information, preventing unauthorized access and maintaining trust in the platform.
+
+Input Validation and Sanitization: Validates and sanitizes all API inputs to prevent injection attacks, such as SQL injection or cross-site scripting (XSS). This protects the database and application from malicious inputs, ensuring robust security across all features.
+
+
