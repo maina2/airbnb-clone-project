@@ -45,3 +45,62 @@ GraphQL: An API query language used for flexible and efficient data retrieval, a
 Docker: A containerization platform used to package the application and its dependencies, ensuring consistent development and deployment environments.
 GitHub Actions: A CI/CD tool used to automate testing, building, and deployment workflows, streamlining the development pipeline and ensuring code quality.
 
+Database Design
+The database for the Airbnb Clone Project is structured around key entities that represent the core components of the booking platform. Below are the primary entities, their important fields, and their relationships.
+Entities and Fields
+
+Users
+
+user_id: Unique identifier for each user (Primary Key).
+email: User's email address for login and communication.
+name: User's full name for profile display.
+password_hash: Securely hashed password for authentication.
+role: Indicates whether the user is a host, guest, or both.
+
+
+Properties
+
+property_id: Unique identifier for each property (Primary Key).
+host_id: References the user who owns the property (Foreign Key to Users).
+title: Name or title of the property listing.
+location: Address or coordinates of the property.
+price_per_night: Cost of renting the property per night.
+
+
+Bookings
+
+booking_id: Unique identifier for each booking (Primary Key).
+property_id: References the booked property (Foreign Key to Properties).
+guest_id: References the user making the booking (Foreign Key to Users).
+check_in_date: Start date of the booking.
+check_out_date: End date of the booking.
+
+
+Reviews
+
+review_id: Unique identifier for each review (Primary Key).
+property_id: References the reviewed property (Foreign Key to Properties).
+guest_id: References the user who wrote the review (Foreign Key to Users).
+rating: Numerical score (e.g., 1-5) for the property.
+comment: Text description of the guest's experience.
+
+
+Payments
+
+payment_id: Unique identifier for each payment (Primary Key).
+booking_id: References the associated booking (Foreign Key to Bookings).
+amount: Total payment amount.
+payment_date: Date the payment was processed.
+status: Indicates whether the payment is completed, pending, or failed.
+
+
+
+Entity Relationships
+
+Users and Properties: A user (host) can own multiple properties, but each property is owned by exactly one user (one-to-many relationship).
+Properties and Bookings: A property can have multiple bookings, but each booking is associated with exactly one property (one-to-many relationship).
+Users and Bookings: A user (guest) can make multiple bookings, but each booking is made by exactly one user (one-to-many relationship).
+Properties and Reviews: A property can have multiple reviews, but each review is associated with exactly one property (one-to-many relationship).
+Users and Reviews: A user (guest) can write multiple reviews, but each review is written by exactly one user (one-to-many relationship).
+Bookings and Payments: A booking can have one payment, and each payment is associated with exactly one booking (one-to-one relationship).
+
