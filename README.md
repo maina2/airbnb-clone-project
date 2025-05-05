@@ -29,7 +29,7 @@ Database Administrator: Manages the MySQL database, designing schemas, optimizin
 
 Frontend Developer: Builds the user interface and client-side functionality, ensuring a responsive and intuitive experience. They integrate with backend APIs and focus on usability and performance.
 
-DevOps Engineer: Sets up and manages CI/CD pipelines using tools like GitHub Actions and Docker. They ensure smooth deployment, monitor application performance, and maintain infrastructure scalability and reliability.
+DevOps Engineer: Sets up and manages CI against/CD pipelines using tools like GitHub Actions and Docker. They ensure smooth deployment, monitor application performance, and maintain infrastructure scalability and reliability.
 
 Security Specialist: Implements security measures for APIs, databases, and the overall application. They conduct vulnerability assessments, enforce secure coding practices, and ensure compliance with best practices.
 
@@ -131,4 +131,11 @@ Data Encryption: Employs HTTPS and encrypts sensitive data (e.g., payment detail
 
 Input Validation and Sanitization: Validates and sanitizes all API inputs to prevent injection attacks, such as SQL injection or cross-site scripting (XSS). This protects the database and application from malicious inputs, ensuring robust security across all features.
 
+
+CI/CD Pipeline
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of testing, building, and deploying code changes, enabling faster and more reliable development cycles. For the Airbnb Clone Project, CI/CD pipelines ensure code quality, reduce manual errors, and facilitate seamless collaboration among team members by automating repetitive tasks and providing rapid feedback on code changes. They are critical for maintaining a stable, scalable application and enabling efficient delivery of new features and updates.
+Tools Used
+
+GitHub Actions: Automates workflows for running tests, linting, and deploying the application to staging or production environments, ensuring consistent and reliable builds.
+Docker: Packages the application and its dependencies into containers, ensuring consistent environments across development, testing, and production, and simplifying deployment processes.
 
